@@ -1,1 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Dashboard</title>
 
+<style>
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#f2f2f2;
+}
+
+header{
+background:#007BFF;
+color:white;
+padding:18px;
+font-size:24px;
+font-weight:bold;
+text-align:center;
+}
+
+.container{
+padding:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+margin-bottom:15px;
+border-radius:12px;
+box-shadow:0 3px 10px rgba(0,0,0,.15);
+}
+
+.card h2{
+margin:0 0 10px;
+}
+
+button{
+width:100%;
+padding:12px;
+border:none;
+border-radius:8px;
+background:#007BFF;
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+.logout{
+background:red;
+margin-top:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+Admin Dashboard
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>📄 Upload PDF</h2>
+<button onclick="alert('Next Step')">Open</button>
+</div>
+
+<div class="card">
+<h2>🎥 Add YouTube Video</h2>
+<button onclick="alert('Next Step')">Open</button>
+</div>
+
+<div class="card">
+<h2>📝 Add Notes</h2>
+<button onclick="alert('Next Step')">Open</button>
+</div>
+
+<div class="card">
+<h2>✏️ Edit / Delete</h2>
+<button onclick="alert('Next Step')">Open</button>
+</div>
+
+<button class="logout" onclick="logout()">Logout</button>
+
+</div>
+
+<script>
+function logout(){
+window.location.href="admin.html";
+}
+</script>
+
+</body>
+                         </html>
