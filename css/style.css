@@ -14,14 +14,13 @@ padding-top:80px;
 }
 
 header{
-header{
 background:#2563eb;
 color:#fff;
 padding:15px 30px;
 display:flex;
 justify-content:space-between;
 align-items:center;
-flex-wrap:wrap;
+flex-wrap:nowrap;
 
 position:fixed;
 top:0;
@@ -32,13 +31,14 @@ z-index:1000;
 }
 
 header h2{
-font-size:28px;
+font-size:20px;
 }
 
 nav{
 display:flex;
 align-items:center;
-gap:15px;
+gap:10px;
+font-size:16px;
 flex-wrap:wrap;
 }
 
